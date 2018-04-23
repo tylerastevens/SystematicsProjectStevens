@@ -1,0 +1,24 @@
+#!/bin/bash
+#PBS -q workq
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=3:00:00
+#PBS -N pasta   
+#PBS -o paup.out
+#PBS -j oe
+#PBS -A loni_selu_sys
+#PBS -m a
+#PBS -M tyler.stevens@selu.edu   
+
+module load paup
+
+cd  /work/tstevens/FinalProject/data
+
+paup
+
+execute Quercus.nexus
+
+set crit=parsimomy
+
+hsearch swap=NNI addseq=random
+
+contree all/strict=no majrule=yes treefile=NNIMRcontree.tre;

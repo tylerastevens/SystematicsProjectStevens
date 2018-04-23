@@ -1,0 +1,48 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=37;
+	Taxlabels
+		F.japonica
+		Q.acuta
+		Q.acutissima
+		Q.aliena
+		Q.argentata
+		Q.baloot
+		Q.bicolor
+		Q.castanea
+		Q.cerris
+		Q.chrysolepis
+		Q.coccifera
+		Q.dentata
+		Q.emoryi
+		Q.engleriana
+		Q.gemelliflora
+		Q.gilva
+		Q.glauca
+		Q.hondae
+		Q.ilex
+		Q.lusitanica
+		Q.lyrata
+		Q.miyagii
+		Q.mongolica
+		Q.monimotricha
+		Q.multinervis
+		Q.myrsinifolia
+		Q.nigra
+		Q.oidocarpa
+		Q.palustris
+		Q.petraea
+		Q.phillyraeoides
+		Q.robur
+		Q.rubra
+		Q.salcina
+		Q.serrata
+		Q.sessifolia
+		Q.variabilis
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R]((((((((Q.nigra[&index=9,age_95%_HPD={0.058035,0.091227}]:0.000808,Q.robur[&index=11,age_95%_HPD={0.056064,0.089727}]:0.000563)[&index=38,posterior=0.147934,age_95%_HPD={0.058334,0.091744}]:0.000291,Q.lyrata[&index=13,age_95%_HPD={0.059315,0.092308}]:0.000275)[&index=39,posterior=0.142159,age_95%_HPD={0.05685,0.089345}]:0.000485,Q.petraea[&index=8,age_95%_HPD={0.058657,0.091586}]:0.001259)[&index=40,posterior=0.256331,age_95%_HPD={0.05858,0.093151}]:0.002378,Q.monimotricha[&index=21,age_95%_HPD={0.056401,0.090692}]:0.004463)[&index=41,posterior=0.001333,age_95%_HPD={0.072927,0.077381}]:-0.004876,Q.bicolor[&index=14,age_95%_HPD={0.049575,0.085455}]:0.006823)[&index=42,posterior=0.001333,age_95%_HPD={0.073186,0.081044}]:0.004388,(((Q.castanea[&index=18,age_95%_HPD={0.028866,0.066862}]:0.025965,Q.emoryi[&index=15,age_95%_HPD={0.056233,0.089796}]:0.000605)[&index=43,posterior=0.182586,age_95%_HPD={0.056555,0.087669}]:0.000652,Q.rubra[&index=17,age_95%_HPD={0.056639,0.089795}]:0.001074)[&index=44,posterior=0.168370,age_95%_HPD={0.056872,0.091413}]:0.000588,Q.palustris[&index=16,age_95%_HPD={0.056525,0.089965}]:0.001715)[&index=45,posterior=0.997779,age_95%_HPD={0.058675,0.092191}]:0.003005)[&index=46,posterior=0.001333,age_95%_HPD={0.077676,0.081252}]:-0.003407,(((((Q.acutissima[&index=33,age_95%_HPD={0.057529,0.09106}]:0.000778,Q.variabilis[&index=32,age_95%_HPD={0.057099,0.090797}]:0.000734)[&index=47,posterior=1.000000,age_95%_HPD={0.057997,0.091731}]:0.003099,Q.cerris[&index=36,age_95%_HPD={0.060406,0.093565}]:0.000607)[&index=48,posterior=0.216348,age_95%_HPD={0.06072,0.093505}]:0.000842,(Q.engleriana[&index=34,age_95%_HPD={0.057787,0.09196}]:0.001378,Q.phillyraeoides[&index=35,age_95%_HPD={0.057967,0.09124}]:0.002201)[&index=49,posterior=0.324300,age_95%_HPD={0.062647,0.095255}]:0.001801)[&index=50,posterior=1.000000,age_95%_HPD={0.06239,0.096107}]:0.001783,(((Q.gemelliflora[&index=5,age_95%_HPD={0.062949,0.096571}]:0.000143,Q.oidocarpa[&index=4,age_95%_HPD={0.060975,0.094056}]:0.000143)[&index=51,posterior=0.233230,age_95%_HPD={0.061633,0.093712}]:0.000460,Q.baloot[&index=12,age_95%_HPD={0.058899,0.093353}]:0.003025)[&index=52,posterior=0.137717,age_95%_HPD={0.064743,0.093137}]:0.000582,Q.argentata[&index=6,age_95%_HPD={0.062463,0.09539}]:0.001220)[&index=53,posterior=0.908929,age_95%_HPD={0.061403,0.09484}]:0.000878)[&index=54,posterior=0.007996,age_95%_HPD={0.069042,0.095766}]:-0.006168,(((Q.chrysolepis[&index=3,age_95%_HPD={0.050872,0.087424}]:0.008046,Q.serrata[&index=2,age_95%_HPD={0.061548,0.095778}]:-0.000076)[&index=55,posterior=0.037317,age_95%_HPD={0.062679,0.095758}]:0.001032,Q.dentata[&index=10,age_95%_HPD={0.060332,0.094806}]:0.002611)[&index=56,posterior=0.002665,age_95%_HPD={0.073165,0.084461}]:-0.001519,((Q.coccifera[&index=20,age_95%_HPD={0.059971,0.092911}]:0.000488,Q.ilex[&index=19,age_95%_HPD={0.05947,0.092431}]:0.000487)[&index=57,posterior=1.000000,age_95%_HPD={0.060275,0.093226}]:0.003248,Q.lusitanica[&index=7,age_95%_HPD={0.061179,0.096127}]:0.001627)[&index=58,posterior=0.030653,age_95%_HPD={0.066953,0.097526}]:-0.001611)[&index=59,posterior=0.001333,age_95%_HPD={0.073804,0.07526}]:-0.003931)[&index=60,posterior=0.000444,age_95%_HPD={0.073882,0.073882}]:0.000224)[&index=61,posterior=0.000444,age_95%_HPD={0.074106,0.074106}]:0.009228,(((((Q.gilva[&index=26,age_95%_HPD={0.054468,0.088683}]:0.001847,Q.miyagii[&index=24,age_95%_HPD={0.05618,0.090971}]:0.001008)[&index=62,posterior=0.047534,age_95%_HPD={0.055978,0.088677}]:-0.001998,(Q.myrsinifolia[&index=27,age_95%_HPD={0.055732,0.09061}]:0.001012,Q.salcina[&index=22,age_95%_HPD={0.054772,0.089502}]:0.000904)[&index=63,posterior=0.054198,age_95%_HPD={0.059644,0.087513}]:-0.001885)[&index=64,posterior=0.002665,age_95%_HPD={0.062176,0.074529}]:0.002831,(Q.aliena[&index=28,age_95%_HPD={0.054569,0.089099}]:-0.000056,Q.glauca[&index=23,age_95%_HPD={0.054814,0.089588}]:-0.000142)[&index=65,posterior=0.068858,age_95%_HPD={0.057609,0.091824}]:0.002084)[&index=66,posterior=0.005775,age_95%_HPD={0.057045,0.084231}]:0.001400,((Q.acuta[&index=31,age_95%_HPD={0.055744,0.091277}]:0.000350,Q.hondae[&index=25,age_95%_HPD={0.055057,0.089561}]:0.000310)[&index=67,posterior=0.067970,age_95%_HPD={0.057461,0.087735}]:0.000333,(Q.multinervis[&index=30,age_95%_HPD={0.053841,0.088952}]:0.002961,Q.sessifolia[&index=29,age_95%_HPD={0.053693,0.088272}]:0.002219)[&index=68,posterior=0.073301,age_95%_HPD={0.055987,0.090257}]:-0.000792)[&index=69,posterior=0.005331,age_95%_HPD={0.063125,0.086919}]:0.002680)[&index=70,posterior=1.000000,age_95%_HPD={0.059241,0.093085}]:0.003638,Q.mongolica[&index=37,age_95%_HPD={0.058304,0.093491}]:0.001664)[&index=71,posterior=0.003110,age_95%_HPD={0.074601,0.087761}]:0.003899,F.japonica[&index=1]:0.083334)[&index=72,posterior=1.000000,age_95%_HPD={0.067982,0.100055}]:0.000000;
+End;

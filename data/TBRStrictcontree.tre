@@ -1,0 +1,37 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Mon Apr  2 20:25:11 2018]
+[!
+>Consensus of 1660375 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 2532 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        2288 characters are constant
+>        197 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 47
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Starting tree(s) obtained via stepwise addition
+>  Addition sequence: simple (reference taxon = Q.lusitanica)
+>  Number of trees held at each step during stepwise addition = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Trees are unrooted
+>
+>Heuristic search aborted (while swapping on tree #28238)
+>   Total number of rearrangements tried = 409505271
+>   Score of best tree(s) found = 263
+>   Number of trees retained = 1660375
+>   Time used = 00:40:42 (CPU time = 00:40:30.3)
+]
+	tree Strict = [&U] (Q.lusitanica,((Q.miyagii,Q.glauca,Q.salcina,Q.sessifolia,Q.aliena,Q.myrsinifolia,Q.gilva,Q.multinervis,Q.hondae,Q.acuta),Q.monimotricha),(Q.coccifera,Q.ilex),(Q.engleriana,Q.cerris,(Q.variabilis,Q.acutissima),Q.phillyraeoides),Q.chrysolepis,Q.emoryi,Q.robur,Q.petraea,(Q.bicolor,Q.castanea),Q.serrata,Q.rubra,(Q.baloot,Q.argentata,Q.gemelliflora,Q.oidocarpa),Q.palustris,Q.lyrata,F.japonica,Q.dentata,Q.mongolica,Q.nigra);
+end;

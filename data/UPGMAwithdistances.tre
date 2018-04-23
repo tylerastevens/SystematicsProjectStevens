@@ -1,0 +1,51 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Mar 28 19:02:31 2018]
+[!
+>Data file = /work/tstevens/FinalProject/data/Quercus.nexus
+>UPGMA search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = uncorrected ("p")
+>  (Tree is rooted)
+]
+	Translate
+		1 Q.lusitanica,
+		2 Q.miyagii,
+		3 Q.glauca,
+		4 Q.coccifera,
+		5 Q.engleriana,
+		6 Q.salcina,
+		7 Q.chrysolepis,
+		8 Q.emoryi,
+		9 Q.robur,
+		10 Q.sessifolia,
+		11 Q.petraea,
+		12 Q.aliena,
+		13 Q.bicolor,
+		14 Q.serrata,
+		15 Q.rubra,
+		16 Q.castanea,
+		17 Q.cerris,
+		18 Q.myrsinifolia,
+		19 Q.monimotricha,
+		20 Q.baloot,
+		21 Q.gilva,
+		22 Q.palustris,
+		23 Q.lyrata,
+		24 Q.argentata,
+		25 F.japonica,
+		26 Q.dentata,
+		27 Q.multinervis,
+		28 Q.gemelliflora,
+		29 Q.ilex,
+		30 Q.variabilis,
+		31 Q.hondae,
+		32 Q.mongolica,
+		33 Q.oidocarpa,
+		34 Q.nigra,
+		35 Q.acutissima,
+		36 Q.acuta,
+		37 Q.phillyraeoides
+		;
+tree PAUP_1 = [&R] ((((((((((((((((1,9),32),23),34),14),(11,26)),(20,((24,28),33))),(((((((((2,3),6),12),18),31),36),10),21),27)),(((5,17),37),(30,35))),((8,15),22)),19),(4,29)),7),13),16),25);
+End;

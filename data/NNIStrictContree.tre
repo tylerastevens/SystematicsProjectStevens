@@ -1,0 +1,39 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Thu Mar 29 06:55:12 2018]
+[!
+>Consensus of 7386290 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 2532 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        2288 characters are constant
+>        197 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 47
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Starting tree(s) obtained via stepwise addition
+>  Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = 731251865
+>  Number of trees held at each step during stepwise addition = 1
+>  Branch-swapping algorithm: nearest-neighbor interchange (NNI)
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 143500 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Trees are unrooted
+>
+>Heuristic search aborted during replicate #1 (while swapping on tree #2089751)
+>   Total number of rearrangements tried = 142103165
+>   Score of best tree(s) found = 263
+>   Number of trees retained = 7386290
+>   Time used = 07:24:17 (CPU time = 07:24:22.1)
+]
+	tree Strict = [&U] (F.japonica,Q.lusitanica,((Q.miyagii,Q.glauca,Q.salcina,Q.sessifolia,Q.aliena,Q.myrsinifolia,Q.gilva,Q.multinervis,Q.hondae,Q.acuta),Q.monimotricha),(Q.coccifera,Q.ilex),(Q.engleriana,Q.cerris,(Q.variabilis,Q.acutissima),Q.phillyraeoides),Q.chrysolepis,Q.emoryi,Q.robur,Q.petraea,(Q.bicolor,Q.castanea),Q.serrata,Q.rubra,(Q.baloot,Q.argentata,Q.gemelliflora,Q.oidocarpa),Q.palustris,Q.lyrata,Q.dentata,Q.mongolica,Q.nigra);
+end;

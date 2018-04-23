@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -q workq
+#PBS -l nodes=1:ppn=20
+#PBS -l walltime=3:00:00
+#PBS -N raxml   
+#PBS -o raxml.out
+#PBS -j oe
+#PBS -A loni_selu_sys
+#PBS -m a
+#PBS -M tyler.stevens@selu.edu   
+
+module load raxml
+
+cd  /work/tstevens/FinalProject/data
+
+raxmlHPC-PTHREADS-SSE3 -m GTRGAMMA -s Quercus.phylip -n sample -p 869877
+
+raxmlHPC-PTHREADS-SSE3 -m GTRGAMMA -s Quercus.phylip -n bootrun -p 9734057 -­b 89723947 -# 100
+
+raxmlHPC-PTHREADS-SSE3 -m GTRCAT -p 12345 -f b -t RAxML_bestTree.sample -z RAxML_bootstrap.bootrun -n mapped
+

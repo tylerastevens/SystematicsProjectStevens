@@ -1,0 +1,10 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Apr  4 08:29:55 2018]
+[!>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = uncorrected ("p")
+>  (Tree is unrooted)
+]
+tree nj = [&U] ((Q.lusitanica:-0.00085,(((((((((((Q.miyagii:0,Q.glauca:0):0,(Q.salcina:0,(Q.aliena:0,(Q.myrsinifolia:0,(Q.hondae:0,Q.acuta:0):0):0):0):0):8.610e-05,Q.gilva:0.00065):0.00010,Q.sessifolia:0.00057):0.00124,(((Q.bicolor:0.00663,Q.castanea:0.02109):0.00376,Q.multinervis:0.00031):0.00219,Q.monimotricha:0.00406):0.00097):0.00079,(Q.coccifera:0,Q.ilex:0):0.00597):0.00036,(((Q.robur:0.00027,Q.lyrata:0.00021):4.027e-05,(Q.dentata:0.00044,Q.nigra:0.00029):3.373e-05):0.00012,(Q.petraea:0.00032,Q.mongolica:-0.00032):0.00019):0.00023):0.00012,(((Q.engleriana:0.00078,Q.phillyraeoides:0.00122):0.00027,Q.cerris:0.00033):0.00040,(Q.variabilis:0,Q.acutissima:0):0.00197):0.00162):0.00017,((Q.emoryi:-0.00019,Q.palustris:0.00019):0.00021,Q.rubra:-0.00021):0.00390):0.00023,(Q.baloot:0.00151,((Q.argentata:0,Q.gemelliflora:0):0,Q.oidocarpa:0):0.00034):0.00131):0.00021,Q.serrata:-2.780e-05):0.00047):0.00126,Q.chrysolepis:0.00515,F.japonica:0.06849);
+end;
